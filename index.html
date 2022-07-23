@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive chatbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="click">
+    <label for="click">
+        <i class="fab fa-facebook-messenger">
+            <img src="images/icons8-facebook-messenger-16.png" alt="">
+        </i>
+        <i class="fab fa-times"></i>
+    </label>
+    <div class="wrapper">
+        <div class="head-text">Let's chart? - online</div>
+        <div class="chat-box">
+            <div class="desc-text">Please fill out the form below to start chatting with me.</div>
+            <form action="#">
+                <div class="field">
+                    <input type="text" placeholder="Your name" required>
+                </div>
+                <div class="field">
+                    <input type="email" placeholder="Your email address" required>
+                </div>
+                <div class="field textarea">
+                   <textarea cols="30" rows="10" placeholder="Explain your question..." required></textarea>
+                </div>
+                <div class="field">
+                   <button type="submit">Start chat</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
